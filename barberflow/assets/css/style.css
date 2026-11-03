@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+aside {
+    min-height: calc(100vh - 56px);
+}
+
+aside .nav-link {
+    border-radius: 6px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s;
+}
+
+aside .nav-link:hover {
+    background-color: #343a40;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.card h2 {
+    color: #212529;
+}
